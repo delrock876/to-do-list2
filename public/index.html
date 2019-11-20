@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel ="stylesheet" href="style.css">
     <title>To Do List</title>
 </head>
@@ -22,6 +23,23 @@
 
       <div class="pimg1"></div>
 
+      <div id='listItem'></div>
+
+      <div class="container">
+      <div class="col s12 l5 offset-l2">
+
+          <div class="input-field">
+            <!-- <i class="material-icons prefix">message</i> -->
+            <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+            <label for="message">What Need's To Get Done</label>
+        </div>
+        <a id='button' class="waves-effect waves-light btn"><i
+          class="material-icons right">loyalty</i>Submit</a>
+      </div>
+      </div>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src ='app.js'></script>
 </body>
 </html>
