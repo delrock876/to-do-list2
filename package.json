@@ -14,5 +14,13 @@
     "express": "^4.17.1",
     "mysql2": "^2.0.1",
     "sequelize": "^5.21.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delrock876/to-do-list2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/delrock876/to-do-list2/issues"
+  },
+  "homepage": "https://github.com/delrock876/to-do-list2#readme"
 }
