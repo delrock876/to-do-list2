@@ -1,3 +1,5 @@
 module.exports = app =>{
-  //pass routes to 
-}
+  require('./todoRoutes.js')(app)
+  
+
+  }
